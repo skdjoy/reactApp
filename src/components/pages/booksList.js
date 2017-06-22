@@ -28,5 +28,4 @@ function mapStateToProps(state) {
 		books  : state.books.books
 	}
 }
-
 export default connect(mapStateToProps)(BooksList);

@@ -23749,7 +23749,6 @@ function mapStateToProps(state) {
 		books: state.books.books
 	};
 }
-
 exports.default = (0, _reactRedux.connect)(mapStateToProps)(BooksList);
 
 /***/ }),
