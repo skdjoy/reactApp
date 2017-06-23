@@ -23,33 +23,3 @@ render(
 );
 
 /* Books Action */
-
-store.dispatch(postBooks(
-	[{
-		 id: 1,
-		 title:'this is the book title',
-		 description: 'this is the book description',
-		 price: 33.33
-	 },
-	 {
-		 id: 2,
-		 title:'this is the second book title',
-		 description: 'this is the second book description',
-		 price: 50
-	 }]
-));
-
-// store.dispatch(deleteBooks(
-// 	{id : 1}
-// ));
-
-// store.dispatch(updateBooks(
-// 	{
-// 		id : 2,
-// 		title : "Learn React in 24h"
-// 	}
-// ));
-
-// /* Cart Actions */
-
-// store.dispatch(addToCart([{id:1}]));
